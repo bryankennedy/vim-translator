@@ -3,7 +3,8 @@ translator.vim
 
 ## Credit
 [This is a fork on maksimr's work](https://github.com/maksimr/vim-translator).
-I just [modified the script a little bit so that I can paste content right over visual selections.](https://github.com/bryankennedy/vim-translator/blob/master/plugin/goog-translator.vim#L95)
+
+I just modified the script a little bit so that I can [paste content right over visual selections.](https://github.com/bryankennedy/vim-translator/blob/master/plugin/goog-translator.vim#L95)
 
 # Description
 
