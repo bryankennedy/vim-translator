@@ -93,7 +93,14 @@ function! s:GoogTranslate(...)
   if has_key(s:goog_conf, 'charset')
     echo iconv(outp,s:goog_conf.charset,&enc)
   else
+    " Print the translated output to the command line
     echo outp
+    " Save the output to the register a
+    :let @a = outp
+    " Delete the text inside the selection (the English)
+    normal gvd
+    " Paste the translated text where the selection used to be
+    normal! "aP
   endif
 
   return outp
