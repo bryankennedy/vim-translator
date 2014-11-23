@@ -1,7 +1,11 @@
 translator.vim
 ============
 
-* [This is a mirror of vim.org](http://www.vim.org/scripts/script.php?script_id=3404)
+## Credit
+[This is a fork on Maksim's work.](https://github.com/maksimr/vim-translator). 
+I just modified the script a little bit so that I could paste content right over visual selections.
+
+# Description
 
 This script allows you to translate text using the google online translator.
 You can translate as single words and whole blocks using visual-mode.
