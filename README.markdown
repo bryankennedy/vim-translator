@@ -2,7 +2,7 @@ translator.vim
 ============
 
 ## Credit
-[This is a fork on Maksim's work.](https://github.com/maksimr/vim-translator). 
+[This is a fork on maksimr's work](https://github.com/maksimr/vim-translator).
 I just modified the script a little bit so that I could paste content right over visual selections.
 
 # Description
